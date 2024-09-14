@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: rgb(77, 142, 226);
+}
+
+.empty-cell {
+  width: 25px;
+}
+
+th {
+  background: lightgray;
+  width: 60px;
+}
+
+.start-cell {
+  background: lightgray;
+  font-weight: bold;
+  height: 60px;
+}
+
+td {
+  background: rgb(236, 234, 234);
+  border: 1px solid lightgray;
+}
+
+tr {
+  border: 1px solid lightgray;
+}
